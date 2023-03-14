@@ -1,0 +1,155 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .navbar {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .jumbotron {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .jumbotron .display-4,
+  .jumbotron .lead {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  
+  header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    font-weight: bold;
+    background-color: rgb(255, 180, 0, 1); 
+    color: white;
+  }
+
+  .navbar a {
+    color: white;
+  }
+  
+  .navbar a:hover {
+    color: #815b01;
+  }
+
+  .navbar-brand:hover {
+    color: #815b01;
+  }
+
+  .navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+  }
+
+  .nav-link { 
+    font-size: 20px;
+  }
+
+  .btn-primary {
+    background: linear-gradient(to bottom right, #ffb400, #ff9100);
+    border: none;
+    width: 120px;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to bottom right, #f3f3f3, #ffb400);
+    border: none;
+  }
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler:hover {
+    background-color: #815b01;
+}
+  
+  /* Jumbotron Animation */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+
+  .fadeInRight {
+    animation-name: fadeInRight;
+  }
+
+  h1.display-4 {
+    font-size: 3rem;
+  }
+
+  p.lead {
+    font-size: 1.2rem;
+  }
+
+  /* Jumbotron CSS */
+
+  .jumbotron-bg {
+    background-color: rgb(255, 180, 0, 1); 
+    background-size: cover;
+  }
+  
+  .jumbotron h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .jumbotron p {
+    text-align: justify; 
+    font-size: 18px;
+    color: white
+  }
+  
+  .jumbotron .btn-primary {
+    background-image: linear-gradient(to bottom right, #ff6600, #ffb400);
+    border: none;
+    width: 180px;
+  }
+  
+  .jumbotron .btn-primary:hover {
+    background-image: linear-gradient(to bottom right, #8b3800, #926600);
+    border: none;
+  }
+  
